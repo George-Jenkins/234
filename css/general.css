@@ -1,0 +1,30 @@
+div{
+box-sizing:border-box;
+}
+
+body{
+margin:0 !important;
+padding:0 !important;
+}
+
+.hide{
+display:none;
+}
+.hover{
+cursor:pointer;
+}
+
+.title{
+font-family:'Fredoka One', 'Open Sans', sans-serif;
+font-size:1.5em;
+}
+.subtitle{
+font-family:'Fredoka One', 'Open Sans', sans-serif;
+}
+.text1{
+font-family:'Open Sans', sans-serif;
+}
+
+.left{
+text-align:left;
+}

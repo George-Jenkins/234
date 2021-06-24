@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.nusiq"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+<name>Nusiq Radio</name>
+
+<description>
+      Listen to music. Stay informed.
+</description>
+
+<author href="http://nusiq.com">
+      George Jenkins
+</author>
+
+<!--<feature name="BackgroundJS">
+      <param name="ios-package" value="BackgroundJS" />
+</feature>--> 
+  
+<!--<plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git"/>-->
+
+<!--<plugin spec="https://github.com/AubreyHewes/cordova-background-audio.git"/>--> 
+<plugin name="cordova-plugin-streaming-media"/>
+<!--<plugin spec="https://github.com/shi11/RemoteControls.git"/>-->
+<!--<plugin name="com.rd11.remote-controls" />--> 
+
+
+<plugin name="cordova-plugin-background-mode"/>
+
+
+<!--https://github.com/homerours/cordova-music-controls-plugin-->
+<plugin spec="https://github.com/homerours/cordova-music-controls-plugin.git" />
+
+
+
+<!--https://github.com/apache/cordova-plugin-media--> 
+<!--<plugin name="cordova-plugin-media" />-->
+
+
+</widget>
+  
